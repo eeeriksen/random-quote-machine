@@ -1,0 +1,91 @@
+body{
+   margin: 0;
+   height: 100vh;
+   background: #cfe6ef;
+   font-family: Monospace;
+   font-size: 14px;
+ }
+ .container{
+   padding: 40px 40px 20px 40px;
+   background-color: #567987;
+   border-radius: 10px;
+   position: relative;
+   width: 60%;
+   margin: auto;
+   top: 50%;
+   transform: translateY(-50%);
+ }
+ 
+ .text{
+   color: white;
+   font-size: 20px;
+   padding-bottom: 20px;
+ }
+ i{
+   margin-right: 15px;
+   font-size: 25px;
+ }
+ .autor{
+   padding-bottom: 30px;
+   text-align: right;
+ }
+ .autor span{
+   color: #fafafa;
+   font-weight: bold;
+   font-size: 18px;
+ }
+ .button{
+   display: block;
+   width: 100%;
+   padding-bottom: 30px;
+ }
+ .button a{
+   border-radius: 4px;
+   background-color: white;
+   border: 0;
+   color: #265b71;
+   line-height: 28px;
+   padding: 0 10px;
+   font-family: monospace;
+   transition: all .3s;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ .button a:hover{
+   background-color: #ccc;
+ }
+ .twitter-button{
+   float: left;
+   padding: 8px 6px;
+ }
+ .fa-twitter{
+   font-size: 16px;
+ }
+ .change-button{
+   float: right;
+ }
+ 
+ footer{
+   padding-top: 30px;
+   display: block;
+   width: 100%;
+   text-align: center;
+   color: white;
+ }
+ 
+ footer a{
+   text-decoration: none;
+   color: #eee;
+   transition: all .3s;
+   font-weight: bold;
+ }
+ footer a:hover{
+   
+   color: #ccc;
+ }
+ @media screen and (max-width: 480px){
+   .container{
+     width: 90%;
+   }
+ }
+ 
