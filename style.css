@@ -5,6 +5,11 @@ body{
    font-family: Monospace;
    font-size: 14px;
  }
+ h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+ }
  .container{
    padding: 40px 40px 20px 40px;
    background-color: #567987;
